@@ -13,7 +13,7 @@ class CSV:
     @classmethod
     def initialize_csv(cls):
         try:
-            pd.read_csv(cls.CSV_FILE, comment='#')
+            pd.read_csv(cls.CSV_FILE)
         except FileNotFoundError:
             df = pd.DataFrame(columns = cls.COLUMNS)
             df.to_csv(cls.CSV_FILE, index = False)
@@ -33,7 +33,7 @@ class CSV:
 
     @classmethod
     def get_transactions(cls, start_date, end_date):
-        df = pd.read_csv(cls.CSV_FILE, comment='#')
+        df = pd.read_csv(cls.CSV_FILE)
         df["date"] = pd.to_datetime(df["date"], format = CSV.FORMAT) 
         start_date = datetime.strptime(start_date, CSV.FORMAT)
         end_date = datetime.strptime(end_date, CSV.FORMAT)
