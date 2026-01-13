@@ -1,0 +1,28 @@
+date,amount,category,description
+01-01-2026,3000.00,Income,Monthly salary
+02-01-2026,-50.25,Groceries,Supermarket purchase
+03-01-2026,-8.50,Coffee,Morning coffee
+04-01-2026,-1200.00,Rent,January rent payment
+05-01-2026,-65.40,Utilities,Electricity bill
+06-01-2026,-45.00,Transport,Gas refill
+07-01-2026,-32.75,Groceries,Weekly grocery shopping
+08-01-2026,-9.99,Subscriptions,Music streaming subscription
+09-01-2026,-22.30,Food,Lunch at café
+10-01-2026,450.00,Income,Freelance project payment
+11-01-2026,-75.00,Health,Pharmacy purchase
+12-01-2026,-120.00,Internet,Monthly internet bill
+13-01-2026,-18.60,Transport,Bus and train tickets
+14-01-2026,-40.00,Entertainment,Concert ticket
+15-01-2026,200.00,Income,Cashback and bonuses
+16-01-2026,-55.90,Utilities,Water bill
+17-01-2026,-200.00,Shopping,Clothing purchase
+18-01-2026,-30.00,Food,Dinner takeout
+19-01-2026,150.00,Income,Sold old furniture
+20-01-2026,-60.00,Health,Gym membership
+21-01-2026,-25.00,Miscellaneous,Household supplies
+22-01-2026,100.00,Income,Gift received
+
+
+
+
+#This is a sample finance data file for testing purposes.
