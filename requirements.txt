@@ -4,20 +4,23 @@
 pandas>=2.0.0
 numpy>=1.24.0
 
-# GUI Framework (tkinter comes with Python, but listed for clarity)
-# tkinter>=3.7  # Built-in with Python installation
-
 # Data Visualization
 matplotlib>=3.7.0
 
+# Excel Export Support
+openpyxl>=3.1.0
+
+# GUI Framework
+# tkinter - Built-in with Python installation
+
+# Development and Testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Code Quality
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
+
 # Optional: For standalone executable creation
 # pyinstaller>=5.0.0
-
-# Development and Testing (optional)
-# pytest>=7.0.0
-# pytest-cov>=4.0.0
-
-# Code Quality (optional)
-# black>=23.0.0
-# flake8>=6.0.0
-# mypy>=1.0.0

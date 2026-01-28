@@ -1,4 +1,2 @@
-date,amount,category,description
-
-
-21-01-2026,200.0,Income,Salary
+id,date,amount,category,description
+1,21-01-2026,200.0,Income,Salary
