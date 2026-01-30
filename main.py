@@ -1,25 +1,27 @@
 """Command-line interface for the Personal Finance Tracker."""
 
+
 from typing import Optional
 
 import pandas as pd
 import matplotlib.pyplot as plt
 
-from constants import (
+from config.constants import (
     DATE_FORMAT,
     CURRENCY_SYMBOL,
     INCOME_COLOR,
     EXPENSE_COLOR,
     Category,
 )
-from data_entry import (
-    get_date,
+from core.data_manager import DataManager
+from core.models import Transaction
+from core.data_entry import (
     get_amount,
     get_category,
     get_description,
     get_transaction_id,
+    get_date,
 )
-from data_manager import DataManager
 
 
 def add_transaction(data_manager: DataManager) -> None:

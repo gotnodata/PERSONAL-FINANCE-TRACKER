@@ -7,9 +7,9 @@ from datetime import datetime
 import pytest
 import pandas as pd
 
-from constants import DATE_FORMAT, Category
-from data_manager import DataManager, Transaction
-from data_entry import get_date, get_amount, get_category, get_description
+from config.constants import DATE_FORMAT, Category
+from core.data_manager import DataManager, Transaction
+from core.data_entry import get_date, get_amount, get_category, get_description
 
 
 class TestTransaction:

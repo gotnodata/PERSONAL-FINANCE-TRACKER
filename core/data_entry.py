@@ -3,7 +3,7 @@
 from datetime import datetime
 from typing import Optional
 
-from constants import DATE_FORMAT, CATEGORY_SHORTCUTS
+from config.constants import DATE_FORMAT, CATEGORY_SHORTCUTS
 
 
 def get_date(prompt: str, allow_default: bool = False) -> str:

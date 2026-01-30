@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.figure import Figure
 
-from constants import (
+from config.constants import (
     DATE_FORMAT,
     CURRENCY_SYMBOL,
     INCOME_COLOR,
@@ -19,7 +19,8 @@ from constants import (
     GUI_WINDOW_SIZE,
     GUI_BACKGROUND_COLOR,
 )
-from data_manager import DataManager, Transaction
+from core.data_manager import DataManager
+from core.models import Transaction
 
 
 class FinanceTrackerGUI:
